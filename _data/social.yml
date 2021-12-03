@@ -1,0 +1,17 @@
+- name: Github
+  link: 'https://github.com/Dru-Mara'
+  social_icon: Github
+  new_window: true
+- name: Twitter
+  link: 'https://twitter.com/Druitter'
+  social_icon: Twitter
+  new_window: true
+- name: LinkedIn
+  link: 'https://www.linkedin.com/in/alexandru-cristian-mara'
+  social_icon: LinkedIn
+  new_window: true
+- name: Scholar
+  link: 'https://scholar.google.com/citations?user=Vx-o-igAAAAJ&hl=en'
+  social_icon: Google
+  new_window: true
+

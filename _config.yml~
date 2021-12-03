@@ -1,0 +1,49 @@
+locale: "en-US"
+title: Dr. Dru's Website
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+google_analytics_key: ""
+
+# Default description in social shares for the jekyll-seo-tag gem
+description: > Personal website of Alexandru Cristian Mara, Phd Candidate at Ghent University.
+
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Alexandru Cristian Mara
+  email: alexandru.mara@ugent.be
+  twitter: druitter
+
+# Social details for the jekyll-seo-tag gem
+social:
+  name: Github
+  links:
+    - https://github.com/Dru-Mara/EvalNE
+
+permalink: pretty
+
+gems:
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
+
+# Jekyll SEO Tag
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS

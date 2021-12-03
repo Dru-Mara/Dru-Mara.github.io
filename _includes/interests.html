@@ -1,0 +1,16 @@
+<h2 id="interests">Research Interests</h2>
+<hr class="bar" />
+<div class="blurb">
+
+<div class="row">
+    {% for topic in site.data.researchtopics %}
+        <div class="col-md-4 col-sm-6 research-item">
+             <div class="research-caption">
+                 <h4>{{ topic.name }}</h4>
+             </div>
+         </div>
+    {% endfor %}
+</div>
+
+</div>
+

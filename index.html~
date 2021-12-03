@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<div id="main">
+<section>
+    <h2 id="about-me">About Me</h2>
+    <hr class="bar" />
+    <div class="blurb">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget libero vel turpis eleifend convallis vel vitae est. Suspendisse mattis ut nulla dapibus ultricies. Suspendisse feugiat felis mi, sit amet pharetra massa volutpat sit amet. Morbi gravida, libero sit amet lacinia tristique, ipsum lacus fermentum eros, ut sollicitudin lacus massa ut leo. In quis urna eu lorem sagittis posuere. Pellentesque tempus consequat urna. Pellentesque blandit elit ac nulla semper vestibulum. Quisque ultrices vestibulum nisi, nec rhoncus est viverra eget. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
+</section>
+
+<section>
+    <h2 id="about-me">Publications</h2>
+	<hr class="bar" />
+	<div class="blurb">
+	{% include history.html %}
+
+	
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget libero vel turpis eleifend convallis vel vitae est. Suspendisse mattis ut nulla dapibus ultricies. Suspendisse feugiat felis mi, sit amet pharetra massa volutpat sit amet. Morbi gravida, libero sit amet lacinia tristique, ipsum lacus fermentum eros, ut sollicitudin lacus massa ut leo. In quis urna eu lorem sagittis posuere. Pellentesque tempus consequat urna. Pellentesque blandit elit ac nulla semper vestibulum. Quisque ultrices vestibulum nisi, nec rhoncus est viverra eget. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    	</div>
+</section>
+
+<section>
+    <h2 id="about-me">Teaching</h2>
+	<hr class="bar" />
+	<div class="blurb">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget libero vel turpis eleifend convallis vel vitae est. Suspendisse mattis ut nulla dapibus ultricies. Suspendisse feugiat felis mi, sit amet pharetra massa volutpat sit amet. Morbi gravida, libero sit amet lacinia tristique, ipsum lacus fermentum eros, ut sollicitudin lacus massa ut leo. In quis urna eu lorem sagittis posuere. Pellentesque tempus consequat urna. Pellentesque blandit elit ac nulla semper vestibulum. Quisque ultrices vestibulum nisi, nec rhoncus est viverra eget. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    	</div>
+</section>
+
+
+
+</div>
+
+
+
+<!--
+<div id="main">
+  <section>
+    {% for post in site.posts limit:1 %}
+      <header>
+        <h1>{{ post.title }}</h1>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+      <section>
+        {{ post.content }}
+        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
+      </section>
+    {% endfor %}
+  </section>
+
+  <section>
+    <div class="row">
+      {% for post in site.posts offset:1 %}
+        <article class="{% cycle '6u', '6u$' %} 12u(small)">
+          <header>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          </header>
+          <section>
+            {{ post.excerpt }}
+          </section>
+          <footer>
+            <ul class="actions">
+              <li><a href="{{ post.url }}" class="button">Read More</a></li>
+              <li class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></li>
+            </ul>
+          </footer>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+-->
