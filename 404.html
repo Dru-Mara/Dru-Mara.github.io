@@ -2,17 +2,17 @@
 layout: default
 title: "Page not found"
 sitemap: false
+permalink: /404.html
 ---
 <div id="main">
   <h1>Page not found</h1>
+  <hr class="bar" />
+  
+  <p class="center">Oh no, the aliens have stolen this page! You can take revenge on them, or flee back to <a href="/">safety</a>.
+  <br/> Controls: use <span class="control">Space</span> to shoot and <span class="control">←</span>&#160;<span class="control">→</span> to move!&#160;&#160;&#160;</p>
 
-  <p>Uh-oh, you seem to have taken a wrong turn! It looks like this was the result of either:</p>
-
-  <ul>
-    <li>A mistyped URL, or a copy-and-paste mistakex</li>
-    <li>A broken link on a web pages or in an email</li>
-    <li>Moved or deleted content</li>
-  </ul>
+  <button class="center button" id="restart">Restart</button>
+  <canvas id="space-invaders" style="width: -webkit-fill-available;" />
 
   <p>I suggest you head to my <a href="/">Home</a> page from here.</p>
 </div>

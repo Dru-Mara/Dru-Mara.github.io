@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/images/favicon.png"> {% seo %} {% feed_meta %}
 
 </head>
@@ -30,6 +29,8 @@
 		<a href="https://www.ugent.be/en" rel="noopener noreferrer" target="_blank">Ghent University</a> - <a href="https://www.ugent.be/ea/idlab/en" rel="noopener noreferrer" target="_blank">IDLab</a> - <a href="https://aida.ugent.be" rel="noopener noreferrer" target="_blank">AIDA</a><br>
       	</h1>
     </header>
+    
+    {% include navbar.html %}
 
     {{ content }}
     
@@ -63,6 +64,7 @@
     <script src="/js/util.js"></script>
     <!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
     <script src="/js/main.js"></script>
+    <script src="/js/game.js"></script>
     <!-- Navbar stuff -->
     <script src="/js/agency.js"></script>
     <script src="/js/cbpAnimatedHeader.js"></script>
