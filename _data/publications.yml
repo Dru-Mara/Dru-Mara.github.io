@@ -1,0 +1,65 @@
+- ref: Jung, A., Hero, III, A. O., <b>Mara, A.</b>, Jahromi, S., Heimowitz, A., & Eldar, Y. C. (2019). <em>Semi-supervised learning in network-structured data via total variation minimization.</em> IEEE Transactions on Signal Processing, 67(24), 6256–6269.
+  type: journal
+  pic: placeholder.png
+  link: https://ieeexplore.ieee.org/document/8902040
+  code:
+  bibtexid: 1
+  bibtex: | 
+   @ARTICLE{jung19,
+   author={Jung, Alexander and Hero, III, Alfred O. and Mara, Alexandru Cristian and Jahromi, Saeed and Heimowitz, Ayelet and Eldar, Yonina C.},
+   journal={IEEE Transactions on Signal Processing}, 
+   title={Semi-Supervised Learning in Network-Structured Data via Total Variation Minimization}, 
+   year={2019},
+   volume={67},
+   number={24},
+   pages={6256-6269},
+   doi={10.1109/TSP.2019.2953593}}
+- ref: Jung, A., Tran, N., & <b>Mara, A.</b> (2018). <em>When is network lasso accurate?</em> Frontiers in Applied Mathematics and Statistics, 3, 28.
+  type: journal
+  pic: placeholder.png
+  link: https://www.frontiersin.org/articles/10.3389/fams.2017.00028/full
+  code: 
+  bibtexid: 2
+  bibtex: | 
+   @ARTICLE{jung18,
+   AUTHOR={Jung, Alexander and Tran, Nguyen and Mara, Alexandru},   
+   TITLE={When Is Network Lasso Accurate?},      
+   JOURNAL={Frontiers in Applied Mathematics and Statistics},      
+   VOLUME={3},      
+   PAGES={28},     
+   YEAR={2018},      
+   URL={https://www.frontiersin.org/article/10.3389/fams.2017.00028},       
+   DOI={10.3389/fams.2017.00028},      
+   ISSN={2297-4687}}
+- ref: Adriaens, F., <b>Mara, A.</b>, Lijffijt, J., & De Bie, T. (2020). <em>Block-approximated exponential random graphs.</em> In 2020 IEEE 7th International Conference on Data Science and Advanced Analytics.
+  type: conference
+  pic: placeholder.png
+  link: https://arxiv.org/abs/2002.07076
+  code: https://github.com/aida-ugent/MaxEntComb
+- ref: Mara, A.</b>, Lijffijt, J., & d. Bie, T. (2020). <em>Benchmarking network embedding models for link prediction&colon; are we making progress?</em> In 2020 IEEE 7th International Conference on Data Science and Advanced Analytics.
+  type: conference
+  pic: placeholder.png
+  link: https://arxiv.org/abs/2002.11522
+  code: https://github.com/aida-ugent/NRL4LP
+- ref: Mara, A.</b>, Mashayekhi, Y., Lijffijt, J., & De Bie, T. (2020). <em>CSNE&colon; conditional signed network embedding.</em> In Proceedings of the 29th ACM International Conference on Information Knowledge Management.
+  type: conference
+  pic: placeholder.png
+  link: https://arxiv.org/abs/2005.10701
+  code: https://github.com/aida-ugent/CSNE
+- ref: Mara, A.</b> & Jung, A. (2017). <em>Recovery conditions and sampling strategies for network lasso.</em> In 51st asilomar conference on signals, systems and computers. Finalist of the Asilomar 2017 best student paper contest.
+  type: conference
+  pic: placeholder.png
+  link: https://arxiv.org/abs/1709.01402
+  code: 
+- ref: Zhu, B., <b>Mara, A.</b>, & Mozo, A. (2015). <em>Clus&colon; parallel subspace clustering algorithm on spark.</em> In T. Morzy, P. Valduriez, & L. Bellatreche (Eds.), New trends in databases and information systems.
+  type: conference
+  pic: placeholder.png
+  link: https://link.springer.com/chapter/10.1007%2F978-3-319-23201-0_20
+  code: 
+- ref: Mara, A. (2017). <em>A Comparative Analysis of Graph Signal Recovery Methods for Big Data Networks.</em> Aalto University Press, 67(24).
+  type: misc
+  pic: placeholder.png
+  link: https://aaltodoc.aalto.fi/handle/123456789/28567
+  code: https://github.com/Dru-Mara/GraphSignalRecovery
+
+

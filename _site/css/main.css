@@ -1588,7 +1588,12 @@
 		font-weight: 400;
 	}
 
-	em, i {
+	em {
+		color: #49bf9d;
+		text-decoration: none;
+	}
+
+	i {
 		font-style: italic;
 	}
 
@@ -2825,12 +2830,23 @@
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 2048px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 16pt;
+			}
+			
+		/* Navbar */		
+			.navbar{
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				margin-left: 35%;
+				width: calc(100% - 35%);
+				padding-left: 2.5%;
 			}
 
 	}
@@ -2838,7 +2854,7 @@
 /* Large */
 
 	@media screen and (max-width: 1280px) {
-
+		
 		/* Header */
 
 			#header {
@@ -2853,6 +2869,16 @@
 					#header h1 br {
 						display: none;
 					}
+		/* Navbar */		
+			.navbar{
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				margin-left: 30%;
+				width: calc(100% - 30%);
+				padding-left: 2.5%;
+			}
 
 		/* Footer */
 
@@ -2917,7 +2943,17 @@
 					#header h1 br {
 						display: inline;
 					}
-
+		/* Navbar */		
+			.navbar{
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				margin-left: 0;
+				width: 100%;
+				padding-left: 2.5%;
+			}
+			
 		/* Footer */
 
 			#footer {
@@ -2999,15 +3035,28 @@
 					line-height: 1.75em;
 				}
 
+
 		/* Header */
 
 			#header {
 				padding: 2.25em 1.5em;
+				padding-top: 10em;
 			}
 
 				#header h1 {
 					font-size: 1.35em;
 				}
+
+		/* Navbar */		
+			.navbar{
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				margin-left: 0;
+				width: 100%;
+				padding-left: 2.5%;
+			}
 
 		/* Footer */
 
@@ -3075,18 +3124,30 @@
 
 					ul.actions.small li:first-child {
 						padding-top: 0;
-					}
-
+					}	
+			
 		/* Header */
 
 			#header {
 				padding: 4.5em 1.5em;
+				padding-top: 20em;
 			}
 
 				#header h1 br {
 					display: none;
 				}
 
+		/* Navbar */		
+			.navbar{
+				overflow: hidden;
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				margin-left: 0;
+				width: 100%;
+				padding-left: 2.5%;
+			}
+			
 		/* Footer */
 
 			#footer .copyright li {
@@ -3106,8 +3167,6 @@
 		background-color: #333;
 		position: fixed;
 		top: 0;
-		margin-left: 35%;
-		width: calc(100% - 35%);
 		padding-left: 2.5%;
 	}
 	.navbar-default {
@@ -3184,6 +3243,31 @@
 	*/
 
  /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
+
+	/* Split the screen in half */
+	
+	/* Control the left side */
+	.left {
+	  width: 15%;
+  	  margin-left: 0;
+  	  text-align: left;
+  	  float: left;
+  	  padding-top: 5px;
+	}
+
+	/* Control the right side */
+	.right {
+	  width: 85%;
+  	  margin-right:0;
+  	  text-align: left;
+  	  float: left;
+  	  padding-left: 10px;
+	}
+
+	.paperimg {
+	  max-height: 80px;
+	  border-radius: 50%;
+	}
 
  	.editor-link {
  		display: none;
