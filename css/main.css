@@ -2091,6 +2091,32 @@
 
 /* List */
 
+	/* Split the screen in half */
+	
+	/* Control the left side */
+	.left {
+	  width: 15%;
+  	  margin-left: 0;
+  	  text-align: left;
+  	  float: left;
+  	  padding-top: 5px;
+	}
+
+	/* Control the right side */
+	.right {
+	  width: 85%;
+  	  margin-right:0;
+  	  text-align: left;
+  	  float: left;
+  	  padding-left: 3%;
+	}
+
+	.paperimg {
+	  max-height: 80px;
+	  border-radius: 50%;
+	}
+
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -2497,6 +2523,42 @@
 			width: 6.25em;
 		}
 
+/* Navbar */
+
+	.navbar{
+		overflow: hidden;
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		margin-left: 30%;
+		width: calc(100% - 30%);
+		padding-left: 2.5%;
+	}
+	.navbar-default {
+		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+	}
+	
+	.navbar-li {
+		float: left;
+	}
+	
+	.navbar-li a {
+		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		border-bottom: none;
+  		background-attachment: scroll;
+	}
+	
+	.navbar-li a:hover {
+		background-color: #111;
+	}
+
 /* Footer */
 
 	#footer {
@@ -2853,7 +2915,13 @@
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1400px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 14pt;
+			}
 		
 		/* Header */
 
@@ -2894,6 +2962,31 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+		/* Split the screen in half */
+	
+			/* Control the left side */
+			.left {
+			  width: 20%;
+		  	  margin-left: 0;
+		  	  text-align: left;
+		  	  float: left;
+		  	  padding-top: 5px;
+			}
+
+			/* Control the right side */
+			.right {
+			  width: 80%;
+		  	  margin-right:0;
+		  	  text-align: left;
+		  	  float: left;
+		  	  padding-left: 3%;
+			}
+
+			.paperimg {
+			  max-height: 80px;
+			  border-radius: 50%;
+			}
 
 		/* Main */
 
@@ -3064,6 +3157,31 @@
 				padding: 2.25em 1.5em;
 			}
 
+		/* Split the screen in half */
+	
+			/* Control the left side */
+			.left {
+			  width: 100%;
+		  	  margin-left: 0;
+		  	  text-align: center;
+		  	  float: left;
+		  	  padding-top: 5px;
+			}
+
+			/* Control the right side */
+			.right {
+			  width: 100%;
+		  	  margin-right: 0;
+		  	  text-align: left;
+		  	  float: left;
+		  	  padding-left: 5%;
+			}
+
+			.paperimg {
+			  max-height: 80px;
+			  border-radius: 50%;
+			}
+
 		/* Main */
 
 			#main {
@@ -3157,43 +3275,36 @@
 				margin-left: 0;
 				padding-left: 0;
 			}
+			
+		/* Split the screen in half */
+	
+			/* Control the left side */
+			.left {
+			  width: 100%;
+		  	  margin-left: 0;
+		  	  text-align: center;
+		  	  float: left;
+		  	  padding-top: 5px;
+			}
+
+			/* Control the right side */
+			.right {
+			  width: 100%;
+		  	  margin-right: 0;
+		  	  text-align: left;
+		  	  float: left;
+		  	  padding-left: 10%;
+			}
+
+			.paperimg {
+			  max-height: 80px;
+			  border-radius: 50%;
+			}
 
 	}
 
 
 	/* CUSTOM CSS */
-	.navbar{
-		overflow: hidden;
-		background-color: #333;
-		position: fixed;
-		top: 0;
-		padding-left: 2.5%;
-	}
-	.navbar-default {
-		list-style-type: none;
-  		margin: 0;
-  		padding: 0;
-  		overflow: hidden;
-  		background-color: #333;
-	}
-	
-	.navbar-li {
-		float: left;
-	}
-	
-	.navbar-li a {
-		display: block;
-  		color: white;
-  		text-align: center;
-  		padding: 14px 16px;
-  		text-decoration: none;
-  		border-bottom: none;
-  		background-attachment: scroll;
-	}
-	
-	.navbar-li a:hover {
-		background-color: #111;
-	}
 	
 	.control {
 		color: #d11313;
@@ -3243,31 +3354,6 @@
 	*/
 
  /* CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/) */
-
-	/* Split the screen in half */
-	
-	/* Control the left side */
-	.left {
-	  width: 15%;
-  	  margin-left: 0;
-  	  text-align: left;
-  	  float: left;
-  	  padding-top: 5px;
-	}
-
-	/* Control the right side */
-	.right {
-	  width: 85%;
-  	  margin-right:0;
-  	  text-align: left;
-  	  float: left;
-  	  padding-left: 10px;
-	}
-
-	.paperimg {
-	  max-height: 80px;
-	  border-radius: 50%;
-	}
 
  	.editor-link {
  		display: none;
