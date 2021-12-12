@@ -3,9 +3,9 @@
   pic: placeholder.png
   link: https://ieeexplore.ieee.org/document/8902040
   code:
-  bibtexid: 1
+  bibtexid: 9
   bibtex: | 
-   @ARTICLE{jung19,
+   @article{jung19,
    author={Jung, Alexander and Hero, III, Alfred O. and Mara, Alexandru Cristian and Jahromi, Saeed and Heimowitz, Ayelet and Eldar, Yonina C.},
    journal={IEEE Transactions on Signal Processing}, 
    title={Semi-Supervised Learning in Network-Structured Data via Total Variation Minimization}, 
@@ -19,9 +19,9 @@
   pic: placeholder.png
   link: https://www.frontiersin.org/articles/10.3389/fams.2017.00028/full
   code: 
-  bibtexid: 2
+  bibtexid: 8
   bibtex: | 
-   @ARTICLE{jung18,
+   @article{jung18,
    AUTHOR={Jung, Alexander and Tran, Nguyen and Mara, Alexandru},   
    TITLE={When Is Network Lasso Accurate?},      
    JOURNAL={Frontiers in Applied Mathematics and Statistics},      
@@ -36,30 +36,110 @@
   pic: placeholder.png
   link: https://arxiv.org/abs/2002.07076
   code: https://github.com/aida-ugent/MaxEntComb
-- ref: Mara, A.</b>, Lijffijt, J., & d. Bie, T. (2020). <em>Benchmarking network embedding models for link prediction&colon; are we making progress?</em> In 2020 IEEE 7th International Conference on Data Science and Advanced Analytics.
+  bibtexid: 7
+  bibtex: | 
+   @inproceedings{adriaens20erg,
+   title = {Block-Approximated Exponential Random Graphs},
+   author = {Florian Adriaens and Alexandru Cristian Mara and Jefrey Lijffijt and Tijl De Bie},
+   journal = {2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)},
+   year = {2020},
+   pages = {70-80}}
+- ref: <b>Mara, A.</b>, Lijffijt, J., & d. Bie, T. (2020). <em>Benchmarking network embedding models for link prediction&colon; are we making progress?</em> In 2020 IEEE 7th International Conference on Data Science and Advanced Analytics.
   type: conference
   pic: placeholder.png
   link: https://arxiv.org/abs/2002.11522
   code: https://github.com/aida-ugent/NRL4LP
-- ref: Mara, A.</b>, Mashayekhi, Y., Lijffijt, J., & De Bie, T. (2020). <em>CSNE&colon; conditional signed network embedding.</em> In Proceedings of the 29th ACM International Conference on Information Knowledge Management.
+  bibtexid: 6
+  bibtex: | 
+   @inproceedings{mara20benchmark,
+   title = {Benchmarking Network Embedding Models for Link Prediction: Are We Making Progress?},
+   author = {Alexandru Cristian Mara and Jefrey Lijffijt and Tijl De Bie},
+   journal = {2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)},
+   year = {2020},
+   pages = {138-147}}
+- ref: <b>Mara, A.</b>, Mashayekhi, Y., Lijffijt, J., & De Bie, T. (2020). <em>CSNE&colon; conditional signed network embedding.</em> In Proceedings of the 29th ACM International Conference on Information Knowledge Management.
   type: conference
   pic: placeholder.png
   link: https://arxiv.org/abs/2005.10701
   code: https://github.com/aida-ugent/CSNE
-- ref: Mara, A.</b> & Jung, A. (2017). <em>Recovery conditions and sampling strategies for network lasso.</em> In 51st asilomar conference on signals, systems and computers. Finalist of the Asilomar 2017 best student paper contest.
+  bibtexid: 5
+  bibtex: | 
+   @inproceedings{mara20csne,
+   author = {Mara, Alexandru and Mashayekhi, Yoosof and Lijffijt, Jefrey and de Bie, Tijl},
+   title = {CSNE: Conditional Signed Network Embedding},
+   year = {2020},
+   isbn = {9781450368599},
+   publisher = {Association for Computing Machinery},
+   url = {https://doi.org/10.1145/3340531.3411959},
+   doi = {10.1145/3340531.3411959},
+   booktitle = {Proceedings of the 29th ACM International Conference on Information & Knowledge Management},
+   pages = {1105–1114},
+   numpages = {10},
+   series = {CIKM '20}}
+- ref: <b>Mara, A.</b>, Lijffijt, J. De Bie, T. (2019). <em>EvalNE &colon; A Framework for Evaluating Network Embeddings on Link Prediction.</em> Procceedings of EDML, (SDM).
+  type: conference
+  pic: placeholder.png
+  link: https://arxiv.org/abs/1901.09691
+  code: https://github.com/Dru-Mara/EvalNE
+  bibtexid: 4
+  bibtex: | 
+   @inproceedings{mara2019evalne,
+   title = {EvalNE : A Framework for Evaluating Network Embeddings on Link Prediction},
+   author = {Mara, Alexandru Cristian and Lijffijt, Jefrey and De Bie, Tijl},
+   booktitle = {Proc. of EDML, (SDM)},
+   issn = {1613-0073},
+   language = {eng},
+   location = {Calgary, Canada},
+   pages = {5--13},
+   url = {http://ceur-ws.org/Vol-2436/#article_2},
+   volume = {2436},
+   year = {2019}}
+
+- ref: <b>Mara, A.</b> & Jung, A. (2017). <em>Recovery conditions and sampling strategies for network lasso.</em> In 51st asilomar conference on signals, systems and computers. Finalist of the Asilomar 2017 best student paper contest.
   type: conference
   pic: placeholder.png
   link: https://arxiv.org/abs/1709.01402
   code: 
+  bibtexid: 3
+  bibtex: | 
+   @inproceedings{mara17nlasso,
+   author = {Mara, Alexandru and Jung, Alexander},
+   booktitle = {2017 51st Asilomar Conference on Signals, Systems, and Computers}, 
+   title = {Recovery conditions and sampling strategies for network Lasso}, 
+   year = {2017},
+   pages = {405-409},
+   doi = {10.1109/ACSSC.2017.8335369}}
 - ref: Zhu, B., <b>Mara, A.</b>, & Mozo, A. (2015). <em>Clus&colon; parallel subspace clustering algorithm on spark.</em> In T. Morzy, P. Valduriez, & L. Bellatreche (Eds.), New trends in databases and information systems.
   type: conference
   pic: placeholder.png
   link: https://link.springer.com/chapter/10.1007%2F978-3-319-23201-0_20
   code: 
-- ref: Mara, A. (2017). <em>A Comparative Analysis of Graph Signal Recovery Methods for Big Data Networks.</em> Aalto University Press, 67(24).
+  bibtexid: 2
+  bibtex: | 
+   @inproceedings{zhu15clus,
+   author = {Zhu, Bo and Mara, Alexandru and Mozo, Alberto},
+   title = {CLUS: Parallel Subspace Clustering Algorithm on Spark},
+   booktitle = {New Trends in Databases and Information Systems},
+   year = {2015},
+   publisher = {Springer International Publishing},
+   address = {Cham},
+   pages = {175--185},
+   isbn = {978-3-319-23201-0}}
+- ref: <b>Mara, A.</b> (2017). <em>A Comparative Analysis of Graph Signal Recovery Methods for Big Data Networks.</em> Aalto University Press, 67(24).
   type: misc
   pic: placeholder.png
   link: https://aaltodoc.aalto.fi/handle/123456789/28567
   code: https://github.com/Dru-Mara/GraphSignalRecovery
-
+  bibtexid: 1
+  bibtex: | 
+   @mastersthesis{Mara2017,
+   title = {{A Comparative Analysis of Graph Signal Recovery Methods for Big Data Networks}},
+   author = {Mara, Alexandru},
+   year = {2017},
+   language = {English},
+   pages = {45+6},
+   school = {Aalto University. School of Science},
+   type = {Master's thesis},
+   keywords = {graph signal recovery, semi-supervised learning, benchmark, graphs},
+   url = {http://urn.fi/URN:NBN:fi:aalto-201710307413}}
 
