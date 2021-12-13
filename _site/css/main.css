@@ -2998,6 +2998,26 @@
 			}
 
 	}
+	
+/* Medium-Large */
+	
+	@media screen and (max-width: 1400px) {
+		/* Header */
+
+			#header {
+				padding: 6em 3em 3em 3em;
+				width: 30%;
+				font-size: 12pt;
+			}
+		/* Footer */
+
+			#footer {
+				padding: 0 3em 5em 3em;
+				width: 30%;
+				font-size: 12pt;
+			}
+			
+	}
 
 /* Medium */
 
