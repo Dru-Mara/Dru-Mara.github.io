@@ -1,6 +1,10 @@
-# Personal website repo
+<h3 align="center">Personal Website Repo</h3>
 
-This repository contains my personal website and is based on the Strata Jekyll template by HTML5 UP. 
+## About
+
+This repository contains my personal website and is based on the Strata Jekyll template by HTML5 UP. The template has been extensively modified and improved to suit my specific needs. If you want a simple site with a similar style, feel free to clone the repo.
+
+**Disclaimer:** I am not a web developer, so I am certain that many things can be improved or done differently. If you have any suggestions, I'd be happy to hear them.
 
 ## License
 
