@@ -1,3 +1,20 @@
+- ref: <b>Mara, A.</b>, Lijffijt, J., & De Bie, T. (2022). <em>EvalNE&colon; A Framework for Network Embedding Evaluation.</em> SoftwareX, 17.
+  type: journal
+  pic: placeholder.png
+  link: https://www.sciencedirect.com/science/article/pii/S2352711022000139
+  code: https://github.com/Dru-Mara/EvalNE
+  bibtexid: 10
+  bibtex: | 
+   @article{MARA2022evalne,
+      title = {EvalNE: A framework for network embedding evaluation},
+      author = {Alexandru Mara and Jefrey Lijffijt and Tijl {De Bie}},
+      journal = {SoftwareX},
+      volume = {17},
+      pages = {},
+      year = {2022},
+      issn = {100997},
+      doi = {10.1016/j.softx.2022.100997},
+    }
 - ref: Jung, A., Hero, III, A. O., <b>Mara, A.</b>, Jahromi, S., Heimowitz, A., & Eldar, Y. C. (2019). <em>Semi-supervised learning in network-structured data via total variation minimization.</em> IEEE Transactions on Signal Processing, 67(24), 6256–6269.
   type: journal
   pic: placeholder.png
