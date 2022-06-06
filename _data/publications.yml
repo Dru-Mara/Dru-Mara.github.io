@@ -1,3 +1,20 @@
+- ref: <b>Mara, A.</b>, Lijffijt, J., & De Bie, T. (2022). <em>An Empirical Evaluation of Network Representation Learning Methods.</em> Big Data.
+  type: journal
+  pic: placeholder.png
+  link: https://www.liebertpub.com/doi/pdf/10.1089/big.2021.0107
+  code: https://github.com/aida-ugent/NRLBenchmark
+  bibtexid: 11
+  bibtex: | 
+   @article{MARA2022benchmark,
+      title = {An Empirical Evaluation of Network Representation Learning Methods},
+      author = {Alexandru Mara and Jefrey Lijffijt and Tijl {De Bie}},
+      journal = {Big Data},
+      volume = {00},
+      pages = {},
+      year = {2022},
+      doi = {10.1089/big.2021.0107},
+    }
+
 - ref: <b>Mara, A.</b>, Lijffijt, J., & De Bie, T. (2022). <em>EvalNE&colon; A Framework for Network Embedding Evaluation.</em> SoftwareX, 17.
   type: journal
   pic: placeholder.png
