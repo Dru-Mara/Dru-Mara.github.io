@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Personal website of Alexandru Cristian Mara, Phd Candidate at Ghent University.
+description: Personal website of Dr. Alexandru Cristian Mara.
 
 # Author details for the jekyll-seo-tag gem
 author:
