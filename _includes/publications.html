@@ -5,6 +5,37 @@
     </div>
     
     <div class="cd-timeline-header">
+        <h3 id="conference">Dissertations</h3>
+    </div>
+    <br/>
+    <div class="blurb">
+    {% for pub in site.data.publications %}
+    {% if pub.type == 'dissertation' %}
+    <div class="row">
+    	<div class="split left">
+    	<img src="images/{{ pub.pic }}" class="paperimg" alt="">    
+    	</div>
+    	<div class="split right">
+    	{{ pub.ref }}
+    	<br>
+    	{% if pub.link != null %}
+    	<button class="center button" onclick="location.href='{{pub.link}}'">Paper</button>
+    	{% endif %}
+    	{% if pub.code != null %}
+    	<button class="center button" onclick="location.href='{{pub.code}}'">Code</button>
+    	{% endif %}
+    	{% if pub.bibtexid != null %}
+    	<button class="center button" onclick="showbibID('mybib{{pub.bibtexid}}')">Bibtex</button>
+    	<div id="mybib{{pub.bibtexid}}" style='display:none;white-space:pre-wrap;'> {{pub.bibtex}} </div>
+    	{% endif %}
+    	</div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+    <br>
+    
+    <div class="cd-timeline-header">
         <h3 id="journal">Journal Articles</h3>
     </div>
     <br/>
@@ -66,35 +97,5 @@
     </div>
     <br>
     
-    <div class="cd-timeline-header">
-        <h3 id="conference">Dissertations</h3>
-    </div>
-    <br/>
-    <div class="blurb">
-    {% for pub in site.data.publications %}
-    {% if pub.type == 'dissertation' %}
-    <div class="row">
-    	<div class="split left">
-    	<img src="images/{{ pub.pic }}" class="paperimg" alt="">    
-    	</div>
-    	<div class="split right">
-    	{{ pub.ref }}
-    	<br>
-    	{% if pub.link != null %}
-    	<button class="center button" onclick="location.href='{{pub.link}}'">Paper</button>
-    	{% endif %}
-    	{% if pub.code != null %}
-    	<button class="center button" onclick="location.href='{{pub.code}}'">Code</button>
-    	{% endif %}
-    	{% if pub.bibtexid != null %}
-    	<button class="center button" onclick="showbibID('mybib{{pub.bibtexid}}')">Bibtex</button>
-    	<div id="mybib{{pub.bibtexid}}" style='display:none;white-space:pre-wrap;'> {{pub.bibtex}} </div>
-    	{% endif %}
-    	</div>
-    </div>
-    {% endif %}
-    {% endfor %}
-    </div>
-    <br>
     
 </div>

@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.3.1'
+gem 'jekyll'
+
+gem 'webrick'
+
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
 	gem 'jekyll-feed', '0.6.0'
